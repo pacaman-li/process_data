@@ -43,5 +43,5 @@ def resultHelp(exit_code=0):
 def historyHelp(exit_code=0):
     baseHelp(exit_code, is_exit=False)
     print('option history [OPTION]')
-    print('-n create new history train data for now history stock data')
+    print('-l load stock codes as "601348,000345" or all')
     sys.exit(exit_code)

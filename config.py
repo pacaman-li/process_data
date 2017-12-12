@@ -28,9 +28,11 @@ TEST_RATIO = 50
 SHOW_READ_STOCK_NAME = False
 
 # define read stock file config
-TYPE_CONF_DIR = 'type_conf'
-MODEL_SAVE_PATH = "sess_model"
-RESULT_SAVE_PATH = "result"
+TYPE_CONF_DIR = 'stock_config/type_conf'
+MODEL_SAVE_PATH = "stock_config/sess_model"
+RESULT_SAVE_PATH = "stock_config/result"
 
 # cache stock flag
 CACHE_STOCK_DATA = False
+
+# history config
