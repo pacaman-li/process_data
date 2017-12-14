@@ -37,6 +37,7 @@ def resultHelp(exit_code=0):
     print("-a filter accuracy value, default value 0.3")
     print("-p filter possibility value from a stock, default 60, between(0, 100)")
     print("-s save filter result file name about quality stock")
+    print("-c load result by config name")
     sys.exit(exit_code)
 
 
@@ -44,4 +45,7 @@ def historyHelp(exit_code=0):
     baseHelp(exit_code, is_exit=False)
     print('option history [OPTION]')
     print('-l load stock codes as "601348,000345" or all')
+    print('-s load stock data start time as "20080808" define set %s year ago' % conf.STOCK_HISTORY_YEAR)
+    print('-e load stock data end time as "20171212" define today')
+    print('-f find all stock to "%s"' % conf.STOCK_CODE_LIST)
     sys.exit(exit_code)

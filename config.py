@@ -35,4 +35,7 @@ RESULT_SAVE_PATH = "stock_config/result"
 # cache stock flag
 CACHE_STOCK_DATA = False
 
-# history config
+# stock history config
+STOCK_CODE_LIST = 'stock_config/stock_codes.info'
+STOCK_HISTORY_DIR = 'stock_config/history'
+STOCK_HISTORY_YEAR = 8
